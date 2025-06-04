@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 130%;
+    gap: 10px;
+   
+}
+.myform{
+    width: 550px;
+    margin: 0 auto;
+
+}
+label{
+    width: 200px;
+    float: left;
+    position: relative;
+    top: 12px;
+}
+input{
+    width: 320px;
+    font-size: 25px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+}
+.formelement{
+    margin-bottom: 10px;
+}
+#submit{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#error{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+#togglePassword {
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#error {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+#success {
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
